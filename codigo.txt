@@ -1,0 +1,4 @@
+import requests
+
+request = requests.get('https://newsapi.org/v2/everything?q=tesla&from=2023-01-17&sortBy=publishedAt&apiKey=754dd2993c414c9d8c4f0e3fff64a446')
+print(request.content)
